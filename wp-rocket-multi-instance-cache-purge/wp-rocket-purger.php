@@ -1,4 +1,5 @@
 <?php
+if( php_sapi_name() !== "cli" ) exit;
 
 // find and init wordpress sans theme support
 function find_wordpress_base_path() {
